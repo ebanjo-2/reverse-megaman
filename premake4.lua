@@ -10,16 +10,19 @@ solution "game"
         files { "src/**.*" }
 		includedirs { "src", "engine/undicht/core/include","engine/undicht/engine/src", "engine/undicht/vendor", "engine/undicht/vendor/glm" }
 		
+		libdirs {"engine/undicht/core", "engine/undicht/engine" }
+		links { "core", "engine" }
+		
 		configuration "debug - windows"
-			links { "engine/undicht/core/libcore.a", "engine/undicht/engine/libengine.a" }
 		
 		configuration "debug - linux"
 			links { "dl" }
-			links { "engine/undicht/core/libcore.so", "engine/undicht/engine/libengine.so" }
+			
 			
 		configuration "release - linux"
 			links { "dl" }
-			links { "engine/undicht/core/libcore.so", "engine/undicht/engine/libengine.so" }
+			
+	include "engine/undicht"
 			
 
         

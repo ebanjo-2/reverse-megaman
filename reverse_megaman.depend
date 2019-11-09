@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1573311378 source:d:\programmieren\cb workspace\reverse-megaman\src\main.cpp
+	<iostream>
+	<string>
+	<core/core.h>
+	<engine.h>
+	<window/graphics_context.h>
+	<window/window.h>
+	<graphics/renderer.h>
+
+1573298366 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\core.h
+	<core/shared_lib.h>
+	<string>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\shared_lib.h
+	<string>
+	<iostream>
+	<core/note.h>
+	<dlfcn.h>
+	<windows.h>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\note.h
+	<vector>
+	<string>
+	<core/memory_watcher.h>
+	<sstream>
+	<iostream>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\memory_watcher.h
+	<vector>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\engine\src\engine.h
+	<window/graphics_context.h>
+
+1573298366 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\window\graphics_context.h
+	<window/window_lib.h>
+	<window/window.h>
+	<functional>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\window\window_lib.h
+	<core/shared_lib.h>
+	<core/shared_lib_class.h>
+	<functional>
+	<core/shared_lib_class.h>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\shared_lib_class.h
+	<core/shared_lib.h>
+	<core/shared_lib_class.h>
+	<functional>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\window\window.h
+	<core/shared_lib.h>
+	<window/window_lib.h>
+	<functional>
+
+1573298366 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\graphics\renderer.h
+	<core/shared_lib_class.h>
+	<graphics/shader.h>
+	<graphics/vertex_buffer.h>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\graphics\shader.h
+	<core/shared_lib_class.h>
+	<string>
+	<graphics/uniform.h>
+	<graphics/texture.h>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\graphics\uniform.h
+	<core/shared_lib_class.h>
+	<core/types.h>
+	<core/buffer_layout.h>
+	<string>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\types.h
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\core\buffer_layout.h
+	<core/types.h>
+	<vector>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\graphics\texture.h
+	<core/shared_lib_class.h>
+	<core/buffer_layout.h>
+	<string>
+
+1573298043 d:\programmieren\cb workspace\reverse-megaman\engine\undicht\core\include\graphics\vertex_buffer.h
+	<core/shared_lib_class.h>
+	<core/buffer_layout.h>
+	<vector>
+

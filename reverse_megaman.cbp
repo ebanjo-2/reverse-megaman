@@ -23,8 +23,8 @@
 					<Add option="-s" />
 					<Add directory="engine/undicht/core" />
 					<Add directory="engine/undicht/engine" />
-					<Add library="libcore" />
-					<Add library="libengine" />
+					<Add library="core" />
+					<Add library="engine" />
 				</Linker>
 			</Target>
 			<Target title="debug - linux">
@@ -42,12 +42,12 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add directory="." />
 					<Add directory="engine/undicht/core" />
 					<Add directory="engine/undicht/engine" />
+					<Add directory="." />
+					<Add library="core" />
+					<Add library="engine" />
 					<Add library="dl" />
-					<Add library="libcore" />
-					<Add library="libengine" />
 				</Linker>
 			</Target>
 			<Target title="release - windows">
@@ -65,6 +65,10 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add directory="engine/undicht/core" />
+					<Add directory="engine/undicht/engine" />
+					<Add library="core" />
+					<Add library="engine" />
 				</Linker>
 			</Target>
 			<Target title="release - linux">
@@ -82,12 +86,12 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add directory="." />
 					<Add directory="engine/undicht/core" />
 					<Add directory="engine/undicht/engine" />
+					<Add directory="." />
+					<Add library="core" />
+					<Add library="engine" />
 					<Add library="dl" />
-					<Add library="libcore" />
-					<Add library="libengine" />
 				</Linker>
 			</Target>
 		</Build>
